@@ -30,20 +30,25 @@ export default function Home() {
 
   return (
     <main className="w-full mx-auto max-w-5xl p-5">
-      <h1 className="font-bold text-4xl mt-10">Typing Battle</h1>
-      <p className="mt-5 text-gray-400 text-lg">
-        Go on a typing battle with your friends and see which one of you types
-        the most in under a minute! Create or join a game to get started. You
-        can play with yourself too.
+      <h1 className="font-bold text-4xl mt-10">Type Rush </h1>
+      <p className="mt-5 text-amber-400 text-lg">
+        <b>Master the Keys, Conquer the Words</b>
+        <br></br>
+        <i>
+          It's time to put your typing skills to the test in a thrilling
+          competition and let your fingers dance across the keyboard Take your
+          buddies on a typing competition to see who can type the fastest in
+          less than a minute! To begin, create or join a game,
+        </i>{" "}
+        You can play Solo as well!!!
       </p>
       <Card className="p-5 mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="p-5 flex flex-col justify-between">
           <div>
             <h2 className="font-medium text-2xl">Create Game</h2>
-            <p className="text-gray-400 mt-5">
-              Create a game and invite your friends to join you and race you to
-              a typing battle! You will receive an invite code once you create a
-              game. You will be the host of the game.
+            <p className="text-yellow-400 mt-5">
+              Make a game and ask your friends to participate in a typing race
+              against you!!! <br></br>The game will be hosted by you.
             </p>
           </div>
 
@@ -57,9 +62,9 @@ export default function Home() {
         <div className="p-5 flex flex-col justify-between">
           <div>
             <h2 className="font-medium text-2xl">Join Game</h2>
-            <p className="text-gray-400 mt-5">
-              Enter your invite code and join your friends to battle them in a
-              typing race. Let the best person win!
+            <p className="text-yellow-400 mt-5">
+              Enter the invitation code and join your friends to compete in a
+              typing race. May the most skilled individual emerge victorious!
             </p>
           </div>
 
